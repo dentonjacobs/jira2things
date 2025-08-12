@@ -51,7 +51,7 @@ class JiraClient:
         try:
             issues = self.jira.search_issues(
                 jql_query,
-                fields='summary,description,subtasks,status,issuetype', 
+                fields='summary,subtasks,status,issuetype', 
                 maxResults=100  # Consider making this configurable
             )
             
@@ -66,7 +66,7 @@ class JiraClient:
             for issue in issues:
                 # Safely extract field values with defaults
                 summary = getattr(issue.fields, 'summary', 'No Summary')
-                description = getattr(issue.fields, 'description', '') or "" 
+                description = "" 
                 subtasks = getattr(issue.fields, 'subtasks', [])
                 status = getattr(issue.fields, 'status', None)
                 status_name = status.name if status else ''

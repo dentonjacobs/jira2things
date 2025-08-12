@@ -196,7 +196,7 @@ def _build_things_task_data(ticket: JiraTicket, config: dict, today_status: set,
     # Basic task information
     title = f"[{ticket.ticket_id}] {ticket.summary}"
     jira_url = f"{jira_base_url}/browse/{ticket.ticket_id}"
-    notes = f"{jira_url}\n\n{ticket.description}"
+    notes = f"[{ticket.ticket_id}]({jira_url})"
     
     # Handle tags configuration
     tags = []

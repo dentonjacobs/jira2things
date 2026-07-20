@@ -10,13 +10,17 @@
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/MainMenu.nib</key>
 		<data>
-		lsc3cuX+TjOBLhNZvBooTOzBGOY=
+		Iiw88bivJdVunQI4TtXBh9TsYiY=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>Resources/Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			M1rS+Tcas1ZdM4/iibTlduTJ22M=
+			</data>
 			<key>hash2</key>
 			<data>
 			6/2HagpKuzGhxFgQU55Lc/bxgR30qm5eqHSV+p9e4/4=
@@ -24,9 +28,13 @@
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/MainMenu.nib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Iiw88bivJdVunQI4TtXBh9TsYiY=
+			</data>
 			<key>hash2</key>
 			<data>
-			tYW7DNQqxoeTYioWtwUOvZLFHM5vboaDXxJUw30MEYA=
+			PawTg0hStx+2CRVIIA9+03eVrCParobuC0K207J+A/0=
 			</data>
 		</dict>
 	</dict>
